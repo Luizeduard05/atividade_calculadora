@@ -1,0 +1,12 @@
+<div class="corFundo">
+    <h2>{{ title }}</h2><br>
+        <div class="calculadora">
+        <input type="text" [(ngModel)]="n1" placeholder="Insira o primeiro número"><br>
+        <input type="text" [(ngModel)]="n2" placeholder="Insira o segundo número"><br>
+        <button (click)="soma()">+</button>
+        <button (click)="subtrair()">-</button>
+        <button (click)="dividir()">/</button>
+        <button (click)="multiplicar()">*</button>
+        RESULTADO: {{ resultado }}
+    </div>    
+</div>
